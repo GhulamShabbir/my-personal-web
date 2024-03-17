@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box_shadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.245);
+}
+
+.text_shadow {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.485);
+}
+
+.rounded_none {
+  border-radius: 0 !important;
+  height: 3rem !important;
+}
+
+.line-indicator li {
+  width: 70px !important;
+  height: 4px !important;
+  border-radius: 10px;
+  background-color: rgba(142, 142, 142, 0.5);
+}
+
+.line-indicator li:hover {
+  background-color: rgba(168, 167, 167, 0.4);
+}
+
+.line-indicator li.slick-active {
+  background-color: #000000;
+}
+
+@media (max-width: 1000px) {
+  .line-indicator li {
+    display: none !important;
+  }
+}
+.instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.css-kq5oaw[data-status="complete"] {
+  background-color: #044e83 !important;
+}
+@layer components {
+  .apply-now-button-transition {
+    @apply border-2 border-[#b21e35] transition-all duration-500 ease-in-out hover:bg-white hover:text-[#b21e35];
+  }
+  .button-transition {
+    @apply border-2 border-main transition-all duration-500 ease-in-out hover:bg-white hover:text-main;
+  }
+}
+@layer utilities {
+  .rotate-icon {
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+  }
+}
