@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import Cover from "../../../public/img/cover.png";
+import Cover from "../../../public/img/drshabbir.jpg";
 
 function Hero() {
   return (
@@ -13,13 +13,13 @@ function Hero() {
       <div className="col-span-2 h-fit w-full">
         <div className="w-full bg-zinc-100 py-8">
           <h1 className="leading-1 text-center text-[2rem] font-extrabold leading-10 tracking-wider text-main sm:text-5xl sm:leading-none lg:text-6xl">
-            Faisalabad&apos;s&nbsp;
+            Islamabad&apos;s&nbsp;
             <br className="block md:hidden" />
             <span className="text-[1.75rem] font-normal sm:text-4xl lg:text-5xl">
-              Journey towards
+              Journey towards a
             </span>
             <br className="block md:hidden" />
-            &nbsp;Cyberabad
+            &nbsp;Business Venture
           </h1>
 
           <h1 className="mt-2 whitespace-normal text-center text-[1.25rem] font-normal leading-[2rem]  tracking-wider text-sub1 sm:text-4xl sm:leading-[3rem] lg:text-[2.5rem]">
@@ -34,23 +34,22 @@ function Hero() {
             Initiative for Cloud Applied Generative AI
             <span className="text-sub1">&nbsp;by&nbsp;</span>
             <span className="tracking-normal">
-              Faisalabad Chamber of Commerce and Industry (FCCI)
+              A Solo Techno-Educational Venture Taking off Globally
             </span>
           </h1>
 
           <div className="mb-7 flex flex-col items-center sm:mt-10 sm:gap-5 lg:mb-0">
             <p className="w-full text-center text-lg font-medium text-sub1 sm:text-xl lg:text-left">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Advanced Specializations
-              Available for Computer Science, Medical, Healthcare, Engineering,
-              Marketing, Accounting, Finance, Banking and Cybersecurity
-              Professionals. For the first time in the history of PAKISTAN,
-              Breaking Barriers Between Technologists and Venture Capitalists
-              with the leadership of Faisalabad Chamber of Commerce and
-              Industry.
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              I, Engr. Dr. Ghulam Shabbir, have been currently involved in a very innovative training program: “Web
+3, Metaverse and AI Developer” Program being conducted at Air University Islamabad Auditorium under
+PIAIC (Presidential Initiative for Artificial Intelligence & Computing). PIAIC intends to to promote
+education, research and business opportunities in Artificial Intelligence, Blockchain, Internet of Things,
+and Cloud Native Computing.
             </p>
             <Link href="/apply">
               <div className="apply-now-button-transition z-20 whitespace-nowrap rounded-full bg-[#b21e35] px-8 py-2.5 uppercase text-white shadow-lg">
-                Apply For Training Now
+                Apply For Counselling, Training & Consultancy
               </div>
             </Link>
             {/* <Counter /> */}
@@ -69,13 +68,13 @@ function Hero() {
               className="right-50% absolute -bottom-5 left-[35%] z-50 h-auto w-48 origin-center rounded-lg bg-white lg:left-10 xl:left-24"
               title="Faisalabad Chamber of Commerce & Industry"
             >
-              <p className="text-center text-lg font-semibold text-main">
-                Dr. Khurram Tariq
+              <p className="text-center  font-semibold text-sm">
+                Engr. Dr. Ghulam Shabbir
               </p>
               <p className="text-center font-medium text-sub1">
-                President of{" "}
+                Chief {" "}
                 <abbr title="Faisalabad Chamber of Commerce & Industry">
-                  FCCI
+                  Executive Officer
                 </abbr>
               </p>
             </div>

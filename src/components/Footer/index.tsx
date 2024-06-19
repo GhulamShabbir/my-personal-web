@@ -52,7 +52,7 @@ function Footer() {
               <div className="mr-3 h-6 w-6">
                 <AiOutlineMail className="h-6 w-6 text-main" />
               </div>
-              support@cyberabad.ai
+              ghulamshabbir1234567@gmail.com
             </Link>
           </div>
         </div>

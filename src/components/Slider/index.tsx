@@ -5,7 +5,7 @@ import React, { Component } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Image3 from "../../../public/slideShow2.jpg";
+import Image3 from "../../../public/slideShow(2).jpg";
 import Image2 from "../../../public/slideShow3.jpg";
 import Image4 from "../../../public/slideShow4.jpg";
 import Image5 from "../../../public/slideShow5.jpg";

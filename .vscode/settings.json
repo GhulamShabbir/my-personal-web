@@ -1,4 +1,15 @@
 {
   "typescript.tsdk": "node_modules\\typescript\\lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "cSpell.words": [
+    "Caurosel",
+    "Chakra",
+    "drshabbir",
+    "FCCI",
+    "Ghulam",
+    "Metaverse",
+    "PIAIC",
+    "salideshow",
+    "Techo"
+  ]
 }
